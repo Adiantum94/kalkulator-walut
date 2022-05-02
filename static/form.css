@@ -1,0 +1,103 @@
+body{
+	background-color:#e5ccc9;
+	color: white;
+    font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	background-image: url(pieniadze.jpg);
+	background-size: cover;
+}
+
+.container{
+
+background-color: rgb(201,192,187,0.6);
+width: 300px;
+padding: 50px;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 3px 3px 30px 5px rgb(59, 49, 49, 0.6);
+border-radius: 5px;
+margin-top: 100px;
+}
+
+select{
+    width:300px;
+    background-color: rgb(201,192,187);
+    color: white;
+    border: 2px solid #837E7C;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    letter-spacing: 2px;
+	outline: none;
+}
+select:hover{
+	background-color: #837E7C;
+    
+}
+input[type=submit]
+{
+width:300px;
+background-color: #ff8c69;
+color: white;
+border: 2px solid rgb(226,114,91);
+border-radius: 5px;
+font-size: 20px;
+padding: 10px;
+margin-top: 10px;
+cursor: pointer;
+letter-spacing: 2px;
+box-sizing: border-box;
+outline: none;
+	}
+
+input[type=text]
+{
+width:300px;
+background-color: rgb(201,192,187);
+color: white;
+border: 2px solid #837E7C;
+border-radius: 5px;
+font-size: 20px;
+padding: 10px;
+margin-top: 10px;
+cursor: pointer;
+letter-spacing: 2px;
+box-sizing: border-box;
+outline: none;
+}
+
+input[type=text]:hover{
+	background-color: #837E7C;
+    
+}
+
+input[type=submit]:hover{
+	background-color: rgb(226,114,91);
+    
+}
+
+p{
+	text-align: left;
+	line-height: 200%;
+	font-size: 18px;
+	color:white;
+    letter-spacing: 2px;
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+input::-webkit-input-placeholder{
+	color: white;
+}
+
+input:focus::-webkit-input-placeholder{
+	color: white;
+}
